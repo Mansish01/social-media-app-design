@@ -95,4 +95,5 @@
 .comments{
     font-size: 15px;
     border-bottom: 2px dashed rgb(165, 141, 141);
+    cursor: pointer;
 }

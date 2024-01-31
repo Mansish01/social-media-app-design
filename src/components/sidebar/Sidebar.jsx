@@ -65,61 +65,45 @@ const Sidebar = () => {
         <button className='sidebarbutton'>Show More</button>
         <hr className='sidebarhr' />
 
+        <h4 className="yourshortcut">Your Shortcuts</h4>
+
         <ul className="sidebarfriendlist">
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Candy Crush</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Hero Wars</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Teen Patti Gold</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Chess</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Pool Billards</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>UN0!</span>
           </li>
 
           <li className="friendlistitem">
             <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
+            <span>Subway Surfers</span>
           </li>
 
-          <li className="friendlistitem">
-            <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
-          </li>
-
-          <li className="friendlistitem">
-            <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
-          </li>
-
-          <li className="friendlistitem">
-            <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
-          </li>
-
-          <li className="friendlistitem">
-            <img src="/assets/person2.png" alt="" />
-            <span>Sonu G.C.</span>
-          </li>
+      
         </ul>
 
       </div>
