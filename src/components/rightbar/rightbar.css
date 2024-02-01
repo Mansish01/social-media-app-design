@@ -2,7 +2,7 @@
     flex: 3.5;
     height: calc(100vh - 50px);
     /* background-color: red; */
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 .rightbarwrap{
