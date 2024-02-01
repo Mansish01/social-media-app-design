@@ -5,8 +5,9 @@
     overflow-y:  scroll;
 
     
-    /* position: sticky;
-    top: 50px; this did'nt work */
+    position: sticky;
+    top: 50px; 
+
 }
 
 ::-webkit-scrollbar{
