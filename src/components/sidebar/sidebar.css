@@ -2,7 +2,11 @@
     flex: 3;
     height: calc(100vh - 50px);
     /* background-color: yellowgreen; */
-    /* overflow-y:  scroll; */
+    overflow-y:  scroll;
+
+    
+    /* position: sticky;
+    top: 50px; this did'nt work */
 }
 
 ::-webkit-scrollbar{
@@ -16,6 +20,7 @@
 }
 .sidebarcontainer{
     padding: 20px;
+
 }
 
 .sidebaritems{

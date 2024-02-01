@@ -4,12 +4,17 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import MessageIcon from '@mui/icons-material/Message';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import { Link } from 'react-router-dom';
+
+// import Profile from '../../pages/Profile/Profile';
+
 
 const Topbar = () => {
+
   return (
     <div className='topbarContainer'>
         <div className="topbarLeft">
-          <span className="logo">SocialManish</span>
+          <span className="logo" >SocialManish</span>
         </div>
 
         <div className="topbarCenter">
@@ -23,8 +28,10 @@ const Topbar = () => {
         <div className="topbarRight">
           <div className="topbarLinks">
 
-            <span className="topbarLink">HomePage</span>
-            <span className="topbarLink">Timeline</span>
+           <Link to="/" className='toplink'><span className="topbarLink">HomePage</span></Link> 
+            <Link to="/login" className="toplink"> <span className="topbarLink">Login</span> </Link> 
+            <Link to="/register" className="toplink"> <span className="topbarLink">Register</span> </Link> 
+
 
           </div>
 
@@ -45,11 +52,11 @@ const Topbar = () => {
             </div>
           </div>
           { /* <img src="public/assets/person1.png" alt="" />  this deosnt work */}
-          <img src="/assets/person1.png" alt="" /> 
+           <Link to="/profile"> <img src="/assets/manish.jpg" alt="" /> </Link>
         </div>
 
     </div>
   )
 }
 
-export default Topbar
+export default Topbar;
